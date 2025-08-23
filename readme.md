@@ -2,7 +2,7 @@
 
 A secure, browser-based application for encrypting and decrypting files using **AES-GCM**, a modern industry-standard encryption algorithm. All cryptographic operations are performed locally in the browser using the **Web Crypto API**, ensuring your files and keys never leave your device.
 
-📍 **Live Demo**: [https://file-encryptor-and-decryptor.vercel.app](https://file-encryptor-and-decryptor.vercel.app)
+📍 **Live Demo**: [Click here](https://secure-vaultpro.vercel.app/)
 
 ---
 
