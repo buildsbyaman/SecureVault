@@ -1,51 +1,33 @@
-# 🔐 File Encryption & Decryption Web App
+# 🔐 SecureVault
 
-A secure, browser-based application for encrypting and decrypting files using **AES-GCM**, a modern industry-standard encryption algorithm. All cryptographic operations are performed locally in the browser using the **Web Crypto API**, ensuring your files and keys never leave your device.
+**Live Demo**: [https://buildsbyaman-securevault.vercel.app/](https://buildsbyaman-securevault.vercel.app/)
 
-📍 **Live Demo**: [Click here](https://secure-vaultpro.vercel.app/)
+A browser-based file encryption and decryption tool using AES-GCM encryption. All operations happen locally in your browser—your files never leave your device.
 
 ---
 
 ## ✨ Features
 
-- ✅ Upload any file for encryption (supports all file types).
-- 🔑 Enter a passphrase for encryption and decryption.
-- 📥 Download encrypted files with `_Encrypted` suffix.
-- 📁 Upload encrypted files to decrypt.
-- 🔐 Decrypt with the correct passphrase.
-- 📤 Download the original file with `_Decrypted` suffix.
-- 🔒 Fully client-side; no data ever leaves your browser.
+- **Encrypt any file** — Upload and secure files with a passphrase
+- **Decrypt files** — Restore encrypted files with the correct key
+- **Client-side only** — No server uploads, complete privacy
+- **AES-GCM encryption** — Industry-standard 256-bit encryption
+- **Dark/Light theme** — Toggle between visual modes
 
 ---
 
-## 🛠️ Technologies Used
+## 🔐 How It Works
 
-- **HTML5** – Structure and file inputs  
-- **CSS3** – Styling and responsive design  
-- **JavaScript (Vanilla)** – Core logic, file handling, encryption  
-- **Web Crypto API** – AES-GCM encryption, PBKDF2 key derivation
+### Encryption
 
----
+1. Upload a file
+2. Enter a passphrase
+3. Download the encrypted file (with `_Encrypted` suffix)
 
-## 🔐 Cryptographic Details
+### Decryption
 
-- **Algorithm**: AES-GCM (256-bit)
-- **Key Derivation**: PBKDF2 with SHA-256
-- **IV**: Randomly generated for each encryption
-- **Authentication Tag**: Ensures data integrity
-- **All operations performed locally** in the browser
+1. Upload an encrypted file
+2. Enter the same passphrase
+3. Download the original file (with `_Decrypted` suffix)
 
----
-
-## 📦 How It Works
-
-1. Upload a file  
-2. Enter a key (passphrase)  
-3. File is encrypted using AES-GCM  
-4. Download the encrypted file  
-5. Upload an encrypted file and enter the key to decrypt it  
-6. Download the decrypted file
-
-> If the key is incorrect, decryption fails.
-
----
+> **Note**: Decryption only works with the correct passphrase.
