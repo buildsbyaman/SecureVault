@@ -1,4 +1,4 @@
-# 🔐 SecureVault
+# SecureVault
 
 **Live Demo**: [https://buildsbyaman-securevault.vercel.app/](https://buildsbyaman-securevault.vercel.app/)
 
@@ -6,7 +6,7 @@ A browser-based file encryption and decryption tool using AES-GCM encryption. Al
 
 ---
 
-## ✨ Features
+## Features
 
 - **Encrypt any file** — Upload and secure files with a passphrase
 - **Decrypt files** — Restore encrypted files with the correct key
@@ -16,7 +16,7 @@ A browser-based file encryption and decryption tool using AES-GCM encryption. Al
 
 ---
 
-## 🔐 How It Works
+## How It Works
 
 ### Encryption
 
